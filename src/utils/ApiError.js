@@ -2,7 +2,7 @@ class ApiError extends Error {
     constructor (
         statusCode, 
         message="Something went wrong",
-        errors= [], // fpr multiple error
+        errors= [], // for multiple error
         statck = ""
     ){
         // yha p hum error ko overwrite kr rhe hai
