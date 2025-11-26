@@ -14,4 +14,4 @@ export const upload = multer({
 })
 
 //Browser se aayi file ko backend ke /public/temp folder me temporarily save karna
- //jisse tum usko Cloudinary ya S3 par upload kar sako.
+ // jisse tum usko Cloudinary ya S3 par upload kar sako.
